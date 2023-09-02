@@ -42,3 +42,12 @@ input[type="checkbox"]:focus {
 .banners-title {
   --bs-bg-opacity: .2;
 }
+
+.btn-default {
+  background-color: var(--light-brown);
+}
+
+.btn-default:hover {
+  background-color: var(--dark-brown);
+
+}
