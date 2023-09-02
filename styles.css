@@ -45,6 +45,7 @@ input[type="checkbox"]:focus {
 
 .btn-default {
   background-color: var(--light-brown);
+  color: black;
 }
 
 .btn-default:hover {
