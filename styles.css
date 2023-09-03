@@ -52,3 +52,22 @@ input[type="checkbox"]:focus {
   background-color: var(--dark-brown);
 
 }
+
+.input-range::-webkit-slider-thumb,
+footer {
+  background-color: var(--light-brown) !important;
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+
+  .nav-link,
+  .nav-body,
+  .offcanvas,
+  .accordion .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+  }
+}
